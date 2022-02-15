@@ -10,7 +10,7 @@ kotlin {
         jvmTest {
             dependencies {
                 api(project(":ktor-server:ktor-server-plugins:ktor-server-conditional-headers"))
-                api("org.webjars:jquery:3.3.1")
+                api("org.webjars:jquery:3.6.0")
             }
         }
     }
